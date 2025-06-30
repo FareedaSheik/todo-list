@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Username Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Username Generator</h1>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <select id="theme">
+      <option value="cool">Cool</option>
+      <option value="funny">Funny</option>
+      <option value="gamer">Gamer</option>
+      <option value="professional">Professional</option>
+    </select>
+    <button onclick="generateUsername()">Generate</button>
+    <button onclick="copyUsername()">Copy</button>
+<div id="usernameCard" class="card"></div>
+<button onclick="generateMultipleUsernames()">Generate 5 Usernames</button>
+<ul id="usernameList"></ul>
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

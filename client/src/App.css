@@ -1,0 +1,11 @@
+.container { max-width: 900px; margin: 0 auto; padding: 16px; }
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.nav .links a { margin-right: 12px; text-decoration: none; }
+.nav .links a.active { font-weight: bold; }
+.page { margin-top: 16px; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin: 12px 0; }
+.row { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.list { display: flex; flex-direction: column; gap: 8px; }
+button { padding: 6px 12px; }
+button.danger { background: #f44336; color: white; border: none; }
+input, select { padding: 6px 8px; border: 1px solid #ccc; border-radius: 6px; }
